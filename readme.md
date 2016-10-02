@@ -53,7 +53,6 @@ Then we will move onto scraping data from the [Internet Movie Database (IMDB)](h
 
 [Starter Code](./code/starter-code/starter-code-1_4.ipynb)
 
->[Solution Code](./code/solution-code/solution-code-1_4.ipynb)
 
 ## Useful Links
 
