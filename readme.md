@@ -33,6 +33,7 @@ We will scrape data from the [Internet Movie Database (IMDB)](http://www.imdb.co
   - Update your view with your csv and add a template
   - Make sure the results are in a table on your template. Look at the link below if you need a refresher on the syntax.
   - Make the background of your new page something else besides white.
+  - Show movie posters as images
 
 #### Starter code
 
