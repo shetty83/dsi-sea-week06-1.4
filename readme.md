@@ -11,52 +11,35 @@ creator:
 
 ## Introduction
 
-In this lab we will retrieve data from APIs and use it to solve two problems:
+In this lab we will retrieve data from APIs and use it to analyze the top 250 movies from the IMDB
 
-1. Build a decision tree regressor that estimates the quality of a wine
-2. Analyze the top 250 movies from the IMDB
-
-This combines what you have learned about decision trees with what you have learned about APIs.
-We will start using [Sheetsu](https://sheetsu.com/your-apis), a neat free service that allows you to turn any spreadsheet into an API.
-Then we will move onto scraping data from the [Internet Movie Database (IMDB)](http://www.imdb.com/) and use the data we obtain to investigate top grossing movies.
-
-> Instructor notes:
-1. Check that the spreadsheet is available at https://docs.google.com/spreadsheets/d/1mZ3Otr5AV4v8WwvLOAvWf3VLxDa-IeJ1AVTEuavJqeo/
-- Check that the API is available at https://sheetsu.com/apis/v1.0/dab55afd
-- Feel free to re-create the spreadsheet or use a new api link if you wish
+We will scrape data from the [Internet Movie Database (IMDB)](http://www.imdb.com/) and use the data we obtain to investigate top grossing movies.
 
 ## Exercise
 
 #### Requirements
 
-1. Get Data From Sheetsu
-- Post Data to Sheetsu
-- Munge data
-    - Explore missing data
-    - Perform EDA
-- Extract Features and Train Model
 - IMDB Movies EDA
-    1. Get top movies
+    - Get top movies
     - Get top movies data
     - Get grossing data
     - Munge data:
         - Explore missing
         - Use correct column types
     - Vectorize text
-
-**Bonus:**
-
-- Final Questions: what relationship is there between top actors and movie gross?
-
+    - What relationship is there between top actors and movie gross?
+- Update your webpage
+  - Add url
+  - Update your view with your csv and add a template
+  - Make sure the results are in a table on your template. Look at the link below if you need a refresher on the syntax.
+  - Make the background of your new page something else besides white.
 
 #### Starter code
 
 [Starter Code](./code/starter-code/starter-code-1_4.ipynb)
 
->[Solution Code](./code/solution-code/solution-code-1_4.ipynb)
-
 ## Useful Links
 
 - [IMDB](http://www.imdb.com/)
 - [OMDBAPI](http://www.omdbapi.com/)
-- [Sheetsu](https://sheetsu.com)
+- [HTML Tables](http://www.w3schools.com/TAgs/tag_table.asp)
